@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Odyssey | DWDD1720</title>
+
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- OPEN GRAPH TAGS -->
+    <meta property="og:title" content="Film Odyssey | DWDD1720">
+    <meta property="og:description"
+        content="Explore the world of adventure movies with Film Odyssey! Discover 20 exciting films, view movie posters, and learn about their release dates, directors, studios, and stories.">
+    <meta property="og:image" content="https://savmoller7.github.io/1720-movies/images/opengraph.jpg">
+    <meta property="og:url" content="https://savmoller7.github.io/1720-movies/">
+    <meta property="og:logo" content="https://savmoller7.github.io/1720-movies/images/logo.svg">
+    <meta property="og:type" content="website">
+
+
+    <!-- FAV ICON LINKS -->
+    <link rel="icon" type="image/png" href="/1720-movies/favicon-96x96.png" sizes="96x96" >
+    <link rel="icon" type="image/svg+xml" href="/1720-movies/favicon.svg" >
+    <link rel="shortcut icon" href="/1720-movies/favicon.ico" >
+    <link rel="apple-touch-icon" sizes="180x180" href="/1720-movies/apple-touch-icon.png" >
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" >
+    <link rel="manifest" href="/1720-movies/site.webmanifest" >
+
+
+
+
+    <!-- SCRIPTS -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/year.js" defer></script>
+    <script src="scripts/movies.js" type="module"></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Site Logo" width="50" height="50">
+        <span> </span>
+        <button id="hamburger" class="hamburger" aria-label="Nav Link Button"></button>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#">Action</a></li>
+            <li class="active"><a href="index.html">Adventure</a></li>
+            <li><a href="#">Comedy</a></li>
+            <li><a href="#">Drama</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Adventure</h1>
+
+        <div id="showMovies" class="movie-grid"></div>
+
+        <dialog id="popupBox" class="show-stuff">
+            <div id="popupInfo"></div>
+            <button id="closeButton">Close</button>
+        </dialog>
+
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://www.youtube.com/@savannahmoller5223" target="_blank"><img src="images/icon-youtube.svg"
+                    alt="YouTube Icon" width="16" height="16"></a>
+            <a href="https://github.com/savmoller7" target="_blank"><img src="images/icon-github.svg" alt="GitHub Icon"
+                    width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/savannah-moller-494623241/" target="_blank"><img
+                    src="images/icon-linkedin.svg" alt="LinkedIn Icon" width="16" height="16"></a>
+            <a href="https://www.facebook.com/savvym000/" target="_blank"><img src="images/icon-facebook.svg"
+                    alt="Facebook Icon" width="16" height="16"></a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> &bull; Savannah Ryan &bull; DWDD1720</p>
+    </footer>
+
+
+</body>
+
+</html>

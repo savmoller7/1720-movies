@@ -1,0 +1,43 @@
+
+@media only screen and (min-width: 40rem) {
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+    /**************** NAVIGATION ****************/
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    nav a {
+        border-left: solid 1px var(--color-grey-70);
+        padding: .4rem 20px;
+    }
+
+    nav li:last-child a {
+        border-right: solid 1px var(--color-grey-70);
+    }
+
+
+    /**************** HAMBURGER ****************/
+    .hamburger {
+        display: none;
+    }
+
+
+    /**************** MOVIE CARDS ****************/
+    .movie-grid {
+        max-width: 1200px;
+        padding: 1rem 10px;
+    }
+}
